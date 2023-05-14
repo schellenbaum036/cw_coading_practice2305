@@ -19,7 +19,8 @@
 
 .mainvisual{
     width: 1100px;
-    
+    height: 100vh;
+    background: url(image/mainvislal2.jpg);
 }
 
 .message{
