@@ -37,12 +37,18 @@ body{
 
 .message{
     width: 800px;
-    height: 200px;
+    height: 160px;
     background:rgba(222,222,222,0.7);
     display: grid;
     place-items: center;
 }
 
-.{
-    font-size: 2em;
+.message>h2{
+    font-size: 40px;
+    line-height: 45px;
+}
+
+.message>h2>span{
+    font-size: 32px;
+    margin-bottom: 30px;
 }
