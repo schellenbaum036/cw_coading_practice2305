@@ -1,6 +1,7 @@
 @charset "utf-8";
 
 body{
+
     width: 100wh;
     height: auto;
 }
@@ -38,7 +39,7 @@ body{
 .message{
     width: 800px;
     height: 160px;
-    background:rgba(222,222,222,0.7);
+    background:rgba(255, 255, 255, 0.7);
     display: grid;
     place-items: center;
 }
