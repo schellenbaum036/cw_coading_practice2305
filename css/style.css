@@ -53,3 +53,52 @@ body{
     font-size: 32px;
     margin-bottom: 30px;
 }
+
+.main_contents{
+    width: 1100px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main_contents>h2{
+    font-size: 40px;
+    margin: 68px auto;
+}
+
+.col{
+    width:350px;
+    height: 440px;
+}
+
+.first{
+    background-color: #4B69C1;
+}
+
+.second{
+    background-color: #DE5B83;
+}
+
+.third{
+    background-color: #61C163;
+}
+
+.three-columns{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 75px;
+}
+
+.three-columns h3{
+    font-size: 24px;
+    margin: 20px auto;
+}
+
+.three-columns p{
+    width: 290px;
+    height: 82px;
+    margin: auto;
+    line-height: 1.5;
+}
