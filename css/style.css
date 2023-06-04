@@ -1,7 +1,6 @@
 @charset "utf-8";
 
 body{
-
     width: 100wh;
     height: auto;
 }
@@ -101,4 +100,50 @@ body{
     height: 82px;
     margin: auto;
     line-height: 1.5;
+}
+
+.customer_voice1{
+    
+    background-color: #4B69C1;
+}
+
+.customer_voice2{
+    background-color: #DE5B83;
+}
+   
+
+.voice1,.voice2{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.voicepart1{
+    background-color: #4B69C1;
+}
+
+.voice1>img,.voice2>img{
+    border-radius: 50%;
+    width: 164px;
+    aspect-ratio: 1/1;
+    margin: 50px auto;    
+}
+
+.voice_text1>h3,.voice_text2>h3{
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.voice_text1>p,.voice_text2>p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.voice_text1,.voice_text2{
+    text-align: left;
+    width: 560px;
 }
