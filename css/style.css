@@ -186,3 +186,7 @@ body{
 .firstbox, .secondbox{
     margin-bottom: 30px;
 }
+
+.infomation-block{
+    background-color: #E7E7E7;
+}
