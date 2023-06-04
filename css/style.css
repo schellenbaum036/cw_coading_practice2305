@@ -188,7 +188,7 @@ body{
 }
 
 .base-info{
-    width: 100%;
+    width: 100vw;
     height: auto;
     background-color: #E7E7E7;
     padding-bottom: 60px;
@@ -212,5 +212,32 @@ body{
     color: #fff;
     padding: 20px;
     border-radius: 5px;
+}
+
+.footer1st{
+    width: 100vw;
+    height: auto;
+    background-color: black;
+}
+
+.four-columns{
+    width: 800px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin: 0px auto;
+    padding: 50px;
+}
+
+.footer{
+    width: 100vw;
+    color: #fff;
+    background-color: black;
+    text-align: center; 
+    border-style: solid; 
+    border-top-color: #fff;
+    border-top-width: 3px;
+    padding: 30px;
 }
 
