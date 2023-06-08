@@ -20,5 +20,22 @@
         .menu{
             display: none;
         }
+        
+        .main_contents{
+            width: 100vw;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+        }
+        .three-columns{
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .col{
+            margin: 0 auto;
+        }
     
 }
